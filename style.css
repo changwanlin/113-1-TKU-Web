@@ -1,0 +1,171 @@
+/* 通用設定 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 頁面容器 */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 頁面標題樣式 */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* 表格樣式 */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+    color: #555;
+}
+
+/* 調整有序列表的樣式 */
+ol {
+    padding-left: 0; /* 移除左側填充 */
+    margin: 30px 0; /* 移除左右自動邊距，使其靠左對齊 */
+    width: 60%; /* 與表格寬度一致 */
+    font-size: 1.2em;
+    color: #444;
+    list-style-position: inside; /* 讓列表符號與文本對齊 */
+}
+
+/* 無序列表的樣式 */
+ul {
+    margin-top: 10px;
+    margin-left: 20px; /* 增加左邊距以保持列表的層次感 */
+    list-style-type: disc;
+    font-size: 1em;
+    color: #555;
+    list-style-position: inside; 
+}
+
+
+/* 超連結樣式 */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 圖片樣式 */
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 表單樣式 */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 60%;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 61%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* 提醒文字樣式 */
+div p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 40px;
+    color: #333;
+}
+
+strong {
+    color: #ff6347;
+}
+
+em {
+    color: #6a5acd;
+}
