@@ -30,10 +30,6 @@ async function importCsvToMongoDB() {
                         sanitizedData[key] = data[key];
                     }
                 });
-
-                // 新增隨機的 absence_count 欄位
-                sanitizedData.absence_count = Math.floor(Math.random() * 6); // 0~5 的隨機值
-
                 results.push(sanitizedData);
             })
             .on('end', async () => {
